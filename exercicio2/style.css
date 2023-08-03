@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    height: auto;
+    flex-wrap: wrap;
+    
+}
+
+section{
+    border: 2px solid black;
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    main{
+        flex-direction: column;
+    }
+
+    section{
+        width: 100%;
+        color: red;
+        align-items: start;
+    }
+}

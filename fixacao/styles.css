@@ -46,3 +46,29 @@
     padding: 20px;
     width: 100%;
   }
+
+
+  
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main{
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+  }
+
+  section, aside{
+    margin-inline: 5px;
+  }
+  footer{
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+  }
+}
